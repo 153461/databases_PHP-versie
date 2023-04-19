@@ -2,7 +2,7 @@ CREATE DATABASE `Jolanda`;
 
 USE `Jolanda`;
 
-CREATE TABLE `student` (
+CREATE TABLE `Haarpro` (
     `id` int AUTO-INCREMENT PRIMARY KEY,
     `prijs` text NOT NULL,
     `type` varchar(16) NOT NULL,
