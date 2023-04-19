@@ -1,13 +1,13 @@
-CREATE DATABASE `Jolanda`;
+DROP DATABASE IF EXISTS `Jolando`;
 
 USE `Jolanda`;
 
 CREATE TABLE `Haarpro` (
     `id` int AUTO-INCREMENT PRIMARY KEY,
-    `prijs` text NOT NULL,
-    `type` varchar(16) NOT NULL,
+    `Shampoo` text NOT NULL,
+    `Conditioner` varchar(16) NOT NULL,
 );
 
-INSERT INTO `product` (`id`,`naam`,`klas`) VALUES
+INSERT INTO `Haarpro` (`id`,`Shampoo`,`conditioner`) VALUES
 (1, `shampoo`),
 (2, `Conditioner`);
